@@ -1,0 +1,39 @@
+{
+    "title": "SRI LANKAN WILD LIFE",
+    "nav": {
+        "logo": "images/logo.png",
+        "links": [
+          { "text": "Home", "url": "index.html" },
+          { "text": "Introduction to Wildlife", "url": "intro.html" },
+          { "text": "Wildlife Conservation Department", "url": "wildlifedept.html" },
+          { "text": "Leopards in Sri Lanka", "url": "leopards.html" },
+          { "text": "Animals in Sri Lanka", "url": "animalssl.html" }
+        ]
+    },
+    "mainContent": {
+        "title": "Diverse Sri Lankan Wildlife",
+        "paragraph": "Sri Lanka is a renowned destination for its diverse ecosystems and rich biodiversity...",
+        "sections": [
+            {
+                "title": "Endemic Species",
+                "text": "Sri Lanka boasts a remarkable array of endemic species, making it a biodiversity hotspot...",
+                "image": "images/Purple-Faced-Langur.jpg"
+            },
+            {
+                "title": "Conservation Challenges and Initiatives",
+                "text": "Despite its incredible biodiversity, Sri Lanka faces numerous conservation challenges...",
+                "image": "images/leopard_cub.jpg"
+            },
+            {
+                "title": "Marine Biodiversity",
+                "text": "The coastal waters surrounding Sri Lanka are teeming with diverse marine life...",
+                "image": "images/1562667747183-animal-aquatic-corals-847393.webp"
+            }
+        ]
+    },
+    "footer": {
+      "logo": "images/logo.png",
+      "copyright": "&copy; 2023 SL WILDLIFE. All rights reserved.",
+      "contact": "Contact: onelisehasa917@gmail.com"
+    }
+}

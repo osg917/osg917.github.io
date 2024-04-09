@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <link rel="stylesheet" href="CSS/home.css">
+    <nav>
+        <header>
+            <a href="index2.html"><img class="logo" src="images\logo.png" alt="Logo" width="100" height="100"></a>
+            <h1 class="title">SRI LANKAN WILD LIFE</h1>
+            <ul>
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="intro2.html">Introduction to Wildlife</a></li>
+                <li><a href="wildlifedept2.html">Wildlife Conservation Department</a></li>                                                                                                                                                                                                                                                                                                                                  </a></li>
+                <li><a href="leopards2.html">Leopards in Sri Lanka</a></li>
+                <li><a href="animalssl2.html">Animals in Sri Lanka</a></li>
+                <li><a href="home.html"> Log out</a></li><br>
+                <li><button id="saveButton">Save </button></li>
+            </ul>
+        </header>
+    </nav>
+    <div contenteditable="true" id="contenteditable">
+    <h1> Sri Lanka's Wildlife Conservation Department </h1>
+    <div class="sec_11">
+    <p class="deptpara">The Department of Wildlife Conservation in Sri Lanka, established in 1949, is the government body responsible for the preservation, management, and sustainable use of the country's diverse wildlife. 
+        Its main objectives include safeguarding endangered species, managing national parks and reserves, preventing illegal wildlife trade and poaching, and promoting public awareness about wildlife conservation.
+
+        The Wildlife Conservation Department in Sri Lanka manages a network of protected areas, including national parks, nature reserves, and sanctuaries, 
+        to preserve the country's diverse flora and fauna, ensuring their long-term survival and contributing to ecological sustainability and the nation's cultural heritage.
+    </p>
+    <iframe class="deptmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.782988928731!2d79.9198057!3d6.8970927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1702931855328!5m2!1sen!2slk" width="700" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <img class="deptlogo" src="images\deptlogo.png">
+    </div>
+    <h1> Protected areas</h1>
+    <div class="gallery">
+        <img src="images\horton-plains-national.jpg" width="600" height="300" > 
+        <img src="images\156-1024x683.jpg" width="550" height="300">
+        <img src="images\A_Hill_in_Maduru_Oya.jpg" width="600" height="300">
+        <img src="images\minneriya-national-park.jpg" width="600" height="400">
+        <img src="images\One of the first times we saw turtles in Sri Lanka_.jpeg" width="550" height="400">
+        <img src="images\GalOya_EliseHassey_0218.jpg" width="500" height="400">
+    </div>
+    <script>
+        document.getElementById('saveButton').addEventListener('click', function() {
+    var content = document.getElementById('contenteditable').innerHTML;
+    saveContentToLocalStorage(content);
+    alert('Content saved successfully!');
+    });
+    
+    function saveContentToLocalStorage(content) {
+    localStorage.setItem('contenteditable', content);
+    }
+    
+    window.onload = function() {
+    let storedContent = localStorage.getItem('contenteditable');
+    if (storedContent) {
+    document.getElementById('contenteditable').innerHTML = storedContent;
+    }
+    };
+    </script>
+    <script>
+    document.getElementById('saveButton').addEventListener('click', function() {
+    var content = document.getElementById('editableContent').innerHTML;
+    saveContentToLocalStorage(content);
+    alert('Content saved successfully!');
+    });
+    
+    function saveContentToLocalStorage(content) {
+    localStorage.setItem('editableContent', content);
+    }
+    window.onload = function() {
+    let storedContent = localStorage.getItem('editableContent');
+    if (storedContent) {
+    document.getElementById('editableContent').innerHTML = storedContent;
+    }
+    };
+    </script>
+    </div>
+    <footer x-data="newsletter">
+        <br>
+         <div class="footer-logo">
+            <img src="images\logo.png" alt="Footer Logo" width="100" height="100">
+        </div> 
+        <div class="newsletter">
+            <link rel="stylesheet" href="newsletter.css">
+            <h8 class="letter">Subscribe to Our Newsletter</h8>
+            <form id="newsletterForm">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+            </form>
+            <script src="newsletter.js"></script>
+        </div>
+        <div class="footer-content">
+            <p>&copy; 2023 SL WILDLIFE. All rights reserved.</p>
+            <p>Contact: onelisehasa917@gmail.com</p>
+        </div>
+    </footer>  
+</body>
+<script src="wildlifedept.js"></script>
+</html>

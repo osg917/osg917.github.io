@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Admin Dashboard</title> 
+    <style>
+    .section {
+        background-color:#FFFFEC;
+        color:#C6A969;
+    }
+    header {
+        color:#FFFFEC;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color:#597E52;
+        padding: 10px;
+        text-align: center;
+    }
+    .title {
+        color: white;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding-right: 20px;
+    }
+    
+    nav ul li a{
+        margin-left: 20px;
+        float: left;
+        text-align: right;
+    }
+    .logo {
+        left: 100%;
+        size: 100px;
+    }
+    
+    nav header ul a {
+        text-decoration: none;
+        color:#FFFFEC;
+        justify-content: space-evenly;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #994D1C;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: #C6A969;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .section {
+        margin-bottom: 30px;
+    }
+    .section-header {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .newsletter-subscriptions {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .subscriber {
+        margin-bottom: 5px;
+    }
+    .subscriber-email {
+        font-weight: bold;
+    }
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+    }    
+    
+    .goto {
+        background-color: #C6A969;
+    }
+
+</style>
+
+</head> 
+<nav>
+    <header>
+        <a href="home.html"><img class="logo" src="images\logo.png" alt="Logo" width="100" height="100" ></a>
+        <h1 class="title">SRI LANKAN WILD LIFE</h1>
+        <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="intro.html">Introduction to Wildlife</a></li>
+            <li><a href="wildlifedept.html">Wildlife Conservation Department</a></li>
+            <li><a href="leopards.html">Leopards in Sri Lanka</a></li>
+            <li><a href="animalssl.html">Animals in Sri Lanka</a></li>
+        </ul>
+    </header>
+</nav>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Admin Dashboard</h1>
+    </div>
+    
+    <div class="section">
+        <div class="section-header">Newsletter Subscriptions</div>
+        <div class="newsletter-subscriptions" id="newsletterSubscriptions">
+            <!-- Subscription list will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Add more sections as needed -->
+
+    <div class="footer">
+        &copy; 2024 Admin Dashboard
+    </div>
+    <div>
+        <a href="index2.html" id="goto">Go to website</a>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const subscriptions = JSON.parse(localStorage.getItem("newsletterEmails"));
+
+        const subscriptionsContainer = document.getElementById("newsletterSubscriptions");
+
+        if (subscriptions && subscriptions.length > 0) {
+            const subscriptionList = document.createElement("ul");
+
+            subscriptions.forEach(function(email) {
+                const listItem = document.createElement("li");
+                listItem.textContent = email;
+                subscriptionList.appendChild(listItem);
+            });
+
+            subscriptionsContainer.appendChild(subscriptionList);
+        } else {
+            subscriptionsContainer.textContent = "No newsletter subscriptions found.";
+        }
+    });
+</script>
+
+</body>
+</html>

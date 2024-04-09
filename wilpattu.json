@@ -1,0 +1,49 @@
+{
+    "nav": {
+      "logo": "images/logo.png",
+      "title": "SRI LANKAN WILD LIFE",
+      "links": [
+        { "text": "Home", "url": "index.html" },
+        { "text": "Introduction to Wildlife", "url": "intro.html" },
+        { "text": "Wildlife Conservation Department", "url": "wildlifedept.html" },
+        { "text": "Leopards in Sri Lanka", "url": "leopards.html" },
+        { "text": "Animals in Sri Lanka", "url": "animalssl.html" }
+      ]
+    },
+    "mainImage": {
+      "src": "images/wilpattu-national-park-by-olanka-travels.jpg",
+      "alt": "main",
+      "width": 1520,
+      "height": 1000
+    },
+    "title": "WILPATTU",
+    "description": "Located on Sri Lanka's northwest coast, Wilpattu National Park is one of the nation's oldest and largest national parks, covering an area of more than 131,693 hectares. Wilpattu is well-known for its varied habitats, which include natural lakes, thick scrublands, and lush forests. It provides a rich habitat for a variety of wildlife species, including both native and migratory birds, mammals, reptiles, and plants.",
+    "facts": [
+      {
+        "title": "Ancient Land of Lakes",
+        "content": "Wilpattu National Park is renowned for its unique landscape featuring 'villus' or natural lakes. The park is home to more than 50 of these natural lakes, which play a crucial role in supporting the diverse wildlife population. These water bodies not only provide a habitat for various species but also create a picturesque scenery within the park."
+      },
+      {
+        "title": "Leopard Haven",
+        "content": "Wilpattu is one of the best places in Sri Lanka to spot the elusive and majestic Sri Lankan leopard (Panthera pardus kotiya). The park's varied ecosystems, including dense jungles and open grasslands, offer an ideal environment for leopards. The unique feature of Wilpattu is its large natural sand-rimmed water basins, locally known as 'villus,' which serve as favored spots for leopards to relax and cool down."
+      },
+      {
+        "title": "Rich Avian Diversity",
+        "content": "Wilpattu National Park is a haven for birdwatchers, boasting a diverse avian population. The park is home to over 200 bird species, including migratory birds that visit during the winter season. Bird enthusiasts can spot a variety of species such as painted storks, white ibises, Asian openbill storks, and various species of eagles and owls."
+      },
+      {
+        "title": "Archaeological and Cultural Significance",
+        "content": "Beyond its natural beauty, Wilpattu has archaeological and cultural significance. The park houses ancient ruins dating back to the reign of King Vijayabahu I (1055–1110 AD). Visitors can explore the remnants of ancient temples, statues, and structures, providing a unique blend of wildlife and historical exploration."
+      }
+    ],
+    "video": {
+      "title": "Know more about Wilpattu",
+      "src": "https://www.youtube.com/embed/XHkdOsrVCaw?si=9AXlOK1VSS1CdAnq"
+    },
+    "footer": {
+      "logo": "images/logo.png",
+      "copyright": "&copy; 2023 SL WILDLIFE. All rights reserved.",
+      "contact": "Contact: onelisehasa917@gmail.com"
+    }
+  }
+  

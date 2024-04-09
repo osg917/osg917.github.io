@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<link rel="stylesheet" href="CSS/home.css">
+<nav>
+    <header>
+        <a href="index2.html"><img class="logo" src="images\logo.png" alt="Logo" width="100" height="100" ></a>
+        <h1 class="title">SRI LANKAN WILD LIFE</h1>
+        <ul>
+            <li id="login-btn"><a href="login.html">LOGIN</a></li>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="intro2.html">Introduction to Wildlife</a></li>
+            <li><a href="wildlifedept2.html">Wildlife Conservation Department</a></li>
+            <li><a href="leopards2.html">Leopards in Sri Lanka</a></li>
+            <li><a href="animalssl2.html">Animals in Sri Lanka</a></li>
+            <li><a href="home.html"> Log out</a></li><br>
+            <li><button id="saveButton">Save </button></li>
+                
+        </ul>
+    </header>
+</nav>
+<div contenteditable="true" id="contenteditable">
+<body>
+
+    <h2> Animals in Sri Lanka</h2>
+       <ol> 
+        <h3><li>Sloth Bear (Melursus ursinus inornatus)</li></h3>
+                <div class="animal">
+                    <p>Sloth bears are distinguished by their shaggy black fur and distinctive white 'V' or 'Y' marking on their chest. They primarily inhabit forested areas and are omnivorous, feeding on insects, fruits, and vegetation.
+                    They are known for their specialized feeding behavior, using their long claws to excavate termite mounds for food (de Silva et al., 2021).</p>
+                    <img src="images\Sloth-Bear-1.webp" width="600" height="320">
+                </div>
+                <hr>
+        <h3><li>Asian Elephant (Elephas maximus maximus)</li></h3>
+                <div class="animal">
+                    <p>The Asian elephant is an iconic species in Sri Lanka, characterized by its large ears and smaller size compared to African elephants. These elephants inhabit various habitats, including forests and grasslands, 
+                    and play a vital ecological role as seed dispersers and ecosystem engineers (Fernando & Leimgruber, 2006).</p>
+                    <img src="images\28589_medium.jpg" width="380" height="250">
+                </div>
+                <hr>
+        <h3><li>Purple-faced Langur (Semnopithecus vetulus)</li></h3>
+                <div class="animal">
+                    <p>Endemic to Sri Lanka, the purple-faced langur is a primate species known for its distinct purple face and gray fur. They inhabit rainforests and are herbivorous, primarily feeding on leaves, fruits, and flowers. 
+                        Habitat loss poses a significant threat to their population (Mittermeier et al., 2013).</p>
+                    <img src="images\depositphotos_473293750-stock-photo-purple-faced-langur-head.jpg">
+                </div>
+                <hr>
+        <h3><li>Sri Lankan Hanging Parrot (Loriculus beryllinus)</li></h3>
+                <div class="animal">
+                    <p>The Sri Lankan hanging parrot, also known as the Layard's parakeet, is a vibrant and charming bird native to the forests of Sri Lanka. Recognized for its brilliant green plumage and a distinctive red crown, 
+                        these parrots are often found in small flocks feasting on fruits and nectar. Their acrobatic flights and playful nature make them a delightful sight for bird enthusiasts (Warakagoda et al., 2012).</p>
+                    <img src="images\depositphotos_84127314-stock-photo-ceylon-hanging-parrot-in-ella.jpg" width="500" height="300"> 
+                </div> 
+                <hr>  
+        <h3><li>Toque Macaque (Macaca sinica)</li></h3>
+                <div class="animal">
+                    <p>The toque macaque is an endemic primate species found in various habitats, including forests and urban areas. Recognizable by its tuft of hair resembling a hat ('toque'), they are omnivorous and live in social groups, 
+                        exhibiting complex social behaviors (Fuentes & Gamerl, 2005).</p>
+                    <img src="images\33299978398_d402d93f8d_b.jpg" width="512" height="341">
+                </div>
+       </ol> 
+0</div>  
+       <section class="linking">
+           <div class="connector">
+           <h2>About Yala</h2>
+           <a href="yala2.html"> <img src="images\The+Common+Wanderer-8796-2.jpg" width="600" height="300"></a>
+           </div>
+           <div class="connector">
+           <h2>About Wilpattu</h2>
+           <a href="wilpattu2.html"><img src="images\50628836316_db1a875f11_h.jpg" width="400" height="300"></a>
+           </div>
+       </section>
+       <script>
+        document.getElementById('saveButton').addEventListener('click', function() {
+    var content = document.getElementById('contenteditable').innerHTML;
+    saveContentToLocalStorage(content);
+    alert('Content saved successfully!');
+    });
+    
+    function saveContentToLocalStorage(content) {
+    localStorage.setItem('contenteditable', content);
+    }
+    
+    window.onload = function() {
+    let storedContent = localStorage.getItem('contenteditable');
+    if (storedContent) {
+    document.getElementById('contenteditable').innerHTML = storedContent;
+    }
+    };
+    </script>
+    <script>
+    document.getElementById('saveButton').addEventListener('click', function() {
+    var content = document.getElementById('editableContent').innerHTML;
+    saveContentToLocalStorage(content);
+    alert('Content saved successfully!');
+    });
+    
+    function saveContentToLocalStorage(content) {
+    localStorage.setItem('editableContent', content);
+    }
+    
+    window.onload = function() {
+    let storedContent = localStorage.getItem('editableContent');
+    if (storedContent) {
+    document.getElementById('editableContent').innerHTML = storedContent;
+    }
+    };
+    </script>
+       <footer x-data="newsletter">
+        <br>
+         <div class="footer-logo">
+            <img src="images\logo.png" alt="Footer Logo" width="100" height="100">
+        </div> 
+        <div class="newsletter">
+            <link rel="stylesheet" href="newsletter.css">
+            <h8 class="letter">Subscribe to Our Newsletter</h8>
+            <form id="newsletterForm">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+            </form>
+            <script src="newsletter.js"></script>
+        </div>
+        <div class="footer-content">
+            <p>&copy; 2023 SL WILDLIFE. All rights reserved.</p>
+            <p>Contact: onelisehasa917@gmail.com</p>
+        </div>
+    </footer>
+</body>
+<script src="animalssl.js"></script>
+</html>

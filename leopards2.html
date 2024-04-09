@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<link rel="stylesheet" href="CSS/home.css">
+<nav>
+    <header>
+        <a href="index2.html"> <img class="logo" src="images\logo.png" alt="Logo" width="100" height="100"> </a>
+        <h1 class="title">SRI LANKAN WILD LIFE</h1>
+        <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="intro2.html">Introduction to Wildlife</a></li>
+            <li><a href="wildlifedept2.html">Wildlife Conservation Department</a></li>
+            <li><a href="leopards2.html">Leopards in Sri Lanka</a></li>
+            <li><a href="animalssl2.html">Animals in Sri Lanka</a></li>
+            <li><a href="home.html"> Log out</a></li><br>
+            
+            <li><button id="saveButton">Save </button></li>
+        </ul>
+    </header>
+</nav>
+<div contenteditable="true" id="contenteditable">
+<h1>Locations in Sri Lanka Where Leopards Live</h1>
+<section class="sec1">
+<br> <br> <br> <br> <br> <br> 
+<section class="leopard">
+<section class="leop">
+    <div class="leopforest">
+      <h3>Kumana National Park</h3><br>
+      <p>Kumana National Park, situated in Sri Lanka's Eastern Province, is renowned for its diverse birdlife and wetland habitats. The park spans around 35,664 hectares and comprises a range of ecosystems, including mangroves, lagoons, scrublands, and forests. It's a crucial habitat for various bird species, especially during the migratory season. While famous for its avian diversity, Kumana is also home to diverse mammalian species, including leopards (Jayasinghe, 2011).</p>
+      <img src="images\kesha-cover.webp" alt="Kumana National Park" width="500" height="400">
+    </div>
+
+    <div class="leopforest">
+      <h3>Horton Plains National Park</h3><br>
+      <p>Horton Plains, located in Sri Lanka's central highlands, features a unique landscape characterized by montane grasslands, cloud forests, and scenic vistas. It covers an area of about 3,160 hectares and is known for its rich biodiversity, including rare and endemic flora and fauna. This park hosts diverse wildlife, such as sambar deer, wild boar, and leopards, amidst its distinctive ecosystems (Senanayake, 2019).</p>
+      <img src="images\mountain-leopards-in-Horton-Plains.jpg" alt="Horton Plains National Park" width="500" height="400">
+    </div>
+
+    <div class="leopforest">
+      <h3>Knuckles Conservation Forest</h3><br>
+      <p>The Knuckles Mountain Range, designated as a UNESCO World Heritage Site, encompasses the Knuckles Conservation Forest. This area, named after its knuckle-shaped mountain peaks, boasts rugged terrain, dense forests, and an array of ecosystems. The region is recognized for its biodiversity, housing numerous species of flora and fauna, including elusive leopards (Ranawana et al., 2015).</p>
+      <img src="images\leopards-e1662087391984.jpg.webp" alt="Knuckles Conservation Forest" width="500" height="400">
+    </div>
+</section>
+</section>
+</section>
+<br>
+<h1> Threats to Leopards</h1>
+<section class="threat">
+    <div class="threat-content">
+    <h2>Habitat Loss</h2>
+    Human activities like deforestation, agriculture, and urbanization lead to habitat fragmentation and degradation, reducing the available space for leopards to roam and hunt. What we can help to minimize these are Establishing and maintaining protected areas, such as national parks and reserves, to conserve leopard habitats and limit human encroachment (Ranawana et al., 2020).
+    <img src="images\leopard-sl-768x512.jpg" width="550" height="300">
+    </div>
+    <div class="threat-content">
+    <h2>Poaching</h2> 
+    Illegal hunting and trade pose a threat to Sri Lankan leopards, driven by demands for leopard body parts, skins, or traditional medicinal purposes. And these can be minimized by Strengthening anti-poaching measures, implementing wildlife protection laws, and increasing patrols to combat illegal wildlife trade and hunting activities (Peake, 2011). <br>
+    <img src="images\1-9-300x213.jpg" width="400" height="300">
+    </div>
+</section>
+<script>
+    document.getElementById('saveButton').addEventListener('click', function() {
+var content = document.getElementById('contenteditable').innerHTML;
+saveContentToLocalStorage(content);
+alert('Content saved successfully!');
+});
+
+function saveContentToLocalStorage(content) {
+localStorage.setItem('contenteditable', content);
+}
+
+window.onload = function() {
+let storedContent = localStorage.getItem('contenteditable');
+if (storedContent) {
+document.getElementById('contenteditable').innerHTML = storedContent;
+}
+};
+</script>
+<script>
+document.getElementById('saveButton').addEventListener('click', function() {
+var content = document.getElementById('editableContent').innerHTML;
+saveContentToLocalStorage(content);
+alert('Content saved successfully!');
+});
+
+function saveContentToLocalStorage(content) {
+localStorage.setItem('editableContent', content);
+}
+
+window.onload = function() {
+let storedContent = localStorage.getItem('editableContent');
+if (storedContent) {
+document.getElementById('editableContent').innerHTML = storedContent;
+}
+};
+</script>
+</div>
+<footer x-data="newsletter">
+    <br>
+     <div class="footer-logo">
+        <img src="images\logo.png" alt="Footer Logo" width="100" height="100">
+    </div> 
+    <div class="newsletter">
+        <link rel="stylesheet" href="newsletter.css">
+        <h8 class="letter">Subscribe to Our Newsletter</h8>
+        <form id="newsletterForm">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+        </form>
+        <script src="newsletter.js"></script>
+    </div>
+    <div class="footer-content">
+        <p>&copy; 2023 SL WILDLIFE. All rights reserved.</p>
+        <p>Contact: onelisehasa917@gmail.com</p>
+    </div>
+</footer>
+</body>
+<script src="leopards.js"></script>
+</html>

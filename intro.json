@@ -1,0 +1,47 @@
+{
+    "title": "SRI LANKAN WILD LIFE",
+    "nav": {
+      "logo": "images/logo.png",
+      "links": [
+        { "text": "Home", "url": "index.html" },
+        { "text": "Introduction to Wildlife", "url": "intro.html" },
+        { "text": "Wildlife Conservation Department", "url": "wildlifedept.html" },
+        { "text": "Leopards in Sri Lanka", "url": "leopards.html" },
+        { "text": "Animals in Sri Lanka", "url": "animalssl.html" }
+      ]
+    },
+    "sections": [
+      {
+        "title": "Introduction to Sri Lankan Wildlife",
+        "forests": [
+          {
+            "name": "Sinharaja Rainforest",
+            "description": "A UNESCO World Heritage Site nestled in the southwest lowland wet zone of Sri Lanka...",
+            "image1": "images/Singharaja_Rain_Forest.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63108.86612788769...",
+            "image2": "images/sinharaja-forest-feserve-sri-lanka-945x630.jpg"
+          },
+          {
+            "name": "Gal Oya National Park",
+            "description": "Nestled in the southeastern part of Sri Lanka, stands as a testament to the country's diverse wildlife...",
+            "image1": "images/Gal+Oya+watering+hole+-+Small.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15832.432468874338...",
+            "image2": "images/oWcSz2PQ.jpeg"
+          },
+          {
+            "name": "Kanneliya National Park",
+            "description": "Situated in the Galle District of Sri Lanka, is a biodiverse haven spanning 10,139 hectares...",
+            "image1": "images/Kanneliya-Rain-Forest.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15864.62723016873...",
+            "image2": "images/kf.jpg"
+          }
+        ]
+      }
+    ],
+    "footer": {
+      "logo": "images/logo.png",
+      "copyright": "&copy; 2023 SL WILDLIFE. All rights reserved.",
+      "contact": "Contact: onelisehasa917@gmail.com"
+    }
+  }
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Login</title>
+<link rel="stylesheet" href="/CSS/CSS-login.css">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+</head>
+<body>
+  <img src="images\blur1.jpg" alt="Background Image" class="background-image">
+
+<div x-data="loginForm()">
+  <div class="login-container" x-show="!loggedIn"> 
+
+    <h2>User Login</h2>
+    <form @submit.prevent="login">
+      <input type="text" x-model="username" placeholder="Username" required>
+      <input type="password" x-model="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p x-text="errorMessage" class="error-message"></p>
+  </div>
+ 
+</div>
+
+<script src="JS-login.js"></script>
+
+</body>
+</html>

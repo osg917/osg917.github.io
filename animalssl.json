@@ -1,0 +1,58 @@
+{
+    "nav": {
+      "logo": "images/logo.png",
+      "title": "SRI LANKAN WILD LIFE",
+      "links": [
+        { "text": "Home", "url": "index.html" },
+        { "text": "Introduction to Wildlife", "url": "intro.html" },
+        { "text": "Wildlife Conservation Department", "url": "wildlifedept.html" },
+        { "text": "Leopards in Sri Lanka", "url": "leopards.html" },
+        { "text": "Animals in Sri Lanka", "url": "animalssl.html" }
+      ]
+    },
+    "animals": [
+      {
+        "name": "Sloth Bear (Melursus ursinus inornatus)",
+        "description": "Sloth bears are distinguished by their shaggy black fur and distinctive white 'V' or 'Y' marking on their chest. They primarily inhabit forested areas and are omnivorous, feeding on insects, fruits, and vegetation. They are known for their specialized feeding behavior, using their long claws to excavate termite mounds for food.",
+        "image": "images/Sloth-Bear-1.webp"
+      },
+      {
+        "name": "Asian Elephant (Elephas maximus maximus)",
+        "description": "The Asian elephant is an iconic species in Sri Lanka, characterized by its large ears and smaller size compared to African elephants. These elephants inhabit various habitats, including forests and grasslands, and play a vital ecological role as seed dispersers and ecosystem engineers.",
+        "image": "images/28589_medium.jpg"
+      },
+      {
+        "name": "Purple-faced Langur (Semnopithecus vetulus)",
+        "description": "Endemic to Sri Lanka, the purple-faced langur is a primate species known for its distinct purple face and gray fur. They inhabit rainforests and are herbivorous, primarily feeding on leaves, fruits, and flowers. Habitat loss poses a significant threat to their population.",
+        "image": "images/depositphotos_473293750-stock-photo-purple-faced-langur-head.jpg"
+      },
+      {
+        "name": "Sri Lankan Hanging Parrot (Loriculus beryllinus)",
+        "description": "The Sri Lankan hanging parrot, also known as the Layard's parakeet, is a vibrant and charming bird native to the forests of Sri Lanka. Recognized for its brilliant green plumage and a distinctive red crown, these parrots are often found in small flocks feasting on fruits and nectar. Their acrobatic flights and playful nature make them a delightful sight for bird enthusiasts.",
+        "image": "images/depositphotos_84127314-stock-photo-ceylon-hanging-parrot-in-ella.jpg"
+      },
+      {
+        "name": "Toque Macaque (Macaca sinica)",
+        "description": "The toque macaque is an endemic primate species found in various habitats, including forests and urban areas. Recognizable by its tuft of hair resembling a hat ('toque'), they are omnivorous and live in social groups, exhibiting complex social behaviors.",
+        "image": "images/33299978398_d402d93f8d_b.jpg"
+      }
+    ],
+    "links": [
+      {
+        "title": "About Yala",
+        "image": "images/The+Common+Wanderer-8796-2.jpg",
+        "url": "yala.html"
+      },
+      {
+        "title": "About Wilpattu",
+        "image": "images/50628836316_db1a875f11_h.jpg",
+        "url": "wilpattu.html"
+      }
+    ],
+    "footer": {
+      "logo": "images/logo.png",
+      "copyright": "&copy; 2023 SL WILDLIFE. All rights reserved.",
+      "contact": "Contact: onelisehasa917@gmail.com"
+    }
+  }
+  

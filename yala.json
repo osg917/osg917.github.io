@@ -1,0 +1,53 @@
+{
+    "nav": {
+      "logo": "images/logo.png",
+      "title": "SRI LANKAN WILD LIFE",
+      "links": [
+        { "text": "Home", "url": "index.html" },
+        { "text": "Introduction to Wildlife", "url": "intro.html" },
+        { "text": "Wildlife Conservation Department", "url": "wildlifedept.html" },
+        { "text": "Leopards in Sri Lanka", "url": "leopards.html" },
+        { "text": "Animals in Sri Lanka", "url": "animalssl.html" }
+      ]
+    },
+    "mainImage": {
+      "src": "images/yala_pic.jpg",
+      "alt": "main",
+      "width": 1520,
+      "height": 750
+    },
+    "title": "YALA",
+    "description": "Situated in the southeast of Sri Lanka, Yala National Park is the second-largest national park in the nation, covering an area of over 97,880 hectares. It is also the most famous. Yala is well-known for its varied habitats, which include a combination of thick forests, grasslands, lagoons, and coastal regions. It is also a hotspot for biodiversity, home to an abundance of different types of plants and animals.",
+    "images": {
+      "original": "images/wildlife-in-yala-national-park_63578.jpg",
+      "hover": "images/LK50C01000-02-E-1280-720.jpg"
+    },
+    "facts": [
+      {
+        "title": "Leopard Density",
+        "content": "Yala National Park is famous for having one of the world's highest densities of leopards (Panthera pardus kotiya) in a single area. It's estimated that the park is home to a significant population of these elusive big cats, offering visitors a higher chance of leopard sightings compared to other parks."
+      },
+      {
+        "title": "Biodiversity Hotspot",
+        "content": "Spanning approximately 979 square kilometers, Yala is not only known for its leopards but also for its rich biodiversity. The park shelters a diverse range of wildlife, including elephants, sloth bears, water buffalo, crocodiles, and a myriad of bird species, making it a haven for nature enthusiasts and wildlife photographers."
+      },
+      {
+        "title": "Unique Ecosystems",
+        "content": "Yala consists of varied ecosystems, including scrub jungles, dry monsoon forests, marine wetlands, and coastal dunes. The park's distinct landscape creates an ideal habitat for an assortment of flora and fauna, contributing to its ecological significance within Sri Lanka."
+      },
+      {
+        "title": "Archaeological Heritage",
+        "content": "Beyond its natural splendor, Yala National Park harbors significant archaeological remnants. The park houses ancient ruins, such as Sithulpawwa, an ancient Buddhist monastery dating back to the 2nd century BC, adding cultural and historical dimensions to its appeal."
+      }
+    ],
+    "video": {
+      "title": "Know more about YALA",
+      "src": "https://www.youtube.com/embed/w2I3c1f-N0Q?si=sFs0FmLvKI93LzTK"
+    },
+    "footer": {
+      "logo": "images/logo.png",
+      "copyright": "&copy; 2023 SL WILDLIFE. All rights reserved.",
+      "contact": "Contact: onelisehasa917@gmail.com"
+    }
+  }
+  

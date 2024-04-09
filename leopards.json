@@ -1,0 +1,54 @@
+{
+    "nav": {
+      "logo": "images/logo.png",
+      "title": "SRI LANKAN WILD LIFE",
+      "links": [
+        { "text": "Home", "url": "index.html" },
+        { "text": "Introduction to Wildlife", "url": "intro.html" },
+        { "text": "Wildlife Conservation Department", "url": "wildlifedept.html" },
+        { "text": "Leopards in Sri Lanka", "url": "leopards.html" },
+        { "text": "Animals in Sri Lanka", "url": "animalssl.html" }
+      ]
+    },
+    "sections": [
+      {
+        "title": "Locations in Sri Lanka Where Leopards Live",
+        "locations": [
+          {
+            "name": "Kumana National Park",
+            "description": "Kumana National Park, situated in Sri Lanka's Eastern Province, is renowned for its diverse birdlife and wetland habitats. The park spans around 35,664 hectares and comprises a range of ecosystems, including mangroves, lagoons, scrublands, and forests. It's a crucial habitat for various bird species, especially during the migratory season.",
+            "image": "images/kesha-cover.webp"
+          },
+          {
+            "name": "Horton Plains National Park",
+            "description": "Horton Plains, located in Sri Lanka's central highlands, features a unique landscape characterized by montane grasslands, cloud forests, and scenic vistas. It covers an area of about 3,160 hectares and is known for its rich biodiversity, including rare and endemic flora and fauna.",
+            "image": "images/mountain-leopards-in-Horton-Plains.jpg"
+          },
+          {
+            "name": "Knuckles Conservation Forest",
+            "description": "The Knuckles Mountain Range, designated as a UNESCO World Heritage Site, encompasses the Knuckles Conservation Forest. This area, named after its knuckle-shaped mountain peaks, boasts rugged terrain, dense forests, and an array of ecosystems.",
+            "image": "images/leopards-e1662087391984.jpg.webp"
+          }
+        ]
+      },
+      {
+        "title": "Threats to Leopards",
+        "threats": [
+          {
+            "name": "Habitat Loss",
+            "description": "Human activities like deforestation, agriculture, and urbanization lead to habitat fragmentation and degradation, reducing the available space for leopards to roam and hunt."
+          },
+          {
+            "name": "Poaching",
+            "description": "Illegal hunting and trade pose a threat to Sri Lankan leopards, driven by demands for leopard body parts, skins, or traditional medicinal purposes."
+          }
+        ]
+      }
+    ],
+    "footer": {
+      "logo": "images/logo.png",
+      "copyright": "&copy; 2023 SL WILDLIFE. All rights reserved.",
+      "contact": "Contact: onelisehasa917@gmail.com"
+    }
+  }
+  

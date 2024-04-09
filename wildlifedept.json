@@ -1,0 +1,31 @@
+{
+    "nav": {
+      "logo": "images/logo.png",
+      "title": "SRI LANKAN WILD LIFE",
+      "links": [
+        { "text": "Home", "url": "index.html" },
+        { "text": "Introduction to Wildlife", "url": "intro.html" },
+        { "text": "Wildlife Conservation Department", "url": "wildlifedept.html" },
+        { "text": "Leopards in Sri Lanka", "url": "leopards.html" },
+        { "text": "Animals in Sri Lanka", "url": "animalssl.html" }
+      ]
+    },
+    "title": "Sri Lanka's Wildlife Conservation Department",
+    "description": "The Department of Wildlife Conservation in Sri Lanka, established in 1949, is the government body responsible for the preservation, management, and sustainable use of the country's diverse wildlife. Its main objectives include safeguarding endangered species, managing national parks and reserves, preventing illegal wildlife trade and poaching, and promoting public awareness about wildlife conservation.",
+    "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.782988928731!2d79.9198057!3d6.8970927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1702931855328!5m2!1sen!2slk",
+    "logo": "images/deptlogo.png",
+    "footer": {
+      "logo": "images/logo.png",
+      "copyright": "&copy; 2023 SL WILDLIFE. All rights reserved.",
+      "contact": "Contact: onelisehasa917@gmail.com"
+    },
+    "protectedAreas": [
+      "images/horton-plains-national.jpg",
+      "images/156-1024x683.jpg",
+      "images/A_Hill_in_Maduru_Oya.jpg",
+      "images/minneriya-national-park.jpg",
+      "images/One of the first times we saw turtles in Sri Lanka_.jpeg",
+      "images/GalOya_EliseHassey_0218.jpg"
+    ]
+  }
+  
